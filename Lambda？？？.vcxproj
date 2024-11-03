@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FixedVector.cpp" />
+    <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="MemoryAllocator.cpp" />
     <ClCompile Include="Vector.cpp" />
     <ClCompile Include="ソース.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FixedVector.h" />
+    <ClInclude Include="Lambda.h" />
     <ClInclude Include="MemoryAllocator.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
