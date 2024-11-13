@@ -13,9 +13,10 @@ struct Lambda {
 };
 
 struct Type {
-	//type T=NULL:
-	typedef int T;
-	T Value;
+	//type Type =NULL:
+	typedef int Type;
+	//type T = Type;
+	Type Value;
 };
 
 template<class T> Type ConstructType<T>(T& In);
